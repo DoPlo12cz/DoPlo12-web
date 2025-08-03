@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DoPlo12 web</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-image: url('https://images5.alphacoders.com/852/852051.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+    }
+
+    header {
+      width: 100%;
+      padding: 20px 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 4px black;
+    }
+
+    .content {
+      margin-top: 120px;
+      text-align: center;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 20px;
+    }
+
+    .button {
+      padding: 18px 36px;
+      font-size: 1.4rem;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-decoration: none;
+      display: inline-block;
+      margin: 10px;
+      color: white;
+      border: none;
+    }
+
+    .youtube-button {
+      background-color: #ff0000;
+    }
+
+    .youtube-button:hover {
+      background-color: #cc0000;
+    }
+
+    .subs-button {
+      background-color: #8000ff; /* Fialová */
+    }
+
+    .subs-button:hover {
+      background-color: #5e00bd; /* Tmavší fialová při přejetí */
+    }
+
+    .description {
+      margin-top: 20px;
+      font-size: 1.25rem;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 15px 20px;
+      border-radius: 10px;
+      line-height: 1.5;
+      text-align: justify;
+      box-shadow: 0 0 10px #000;
+    }
+
+    .discord-buttons-container {
+      margin-top: 20px;
+      display: inline-flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .discord-button {
+      background-color: black;
+      color: #8000ff; /* Fialové písmo */
+      padding: 16px 32px;
+      font-size: 1.4rem;
+      font-weight: bold;
+      border-radius: 8px;
+      border: 2px solid #8000ff;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .discord-button:hover {
+      background-color: #8000ff;
+      color: black;
+      border-color: #5e00bd;
+    }
+
+    /* Nové tlačítko DuPloSMP s opačnými barvami */
+    .discord-button.inverse {
+      background-color: #8000ff; /* Fialové pozadí */
+      color: black; /* Černý text */
+      border: 2px solid black;
+      margin-top: 15px;
+      display: inline-block;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .discord-button.inverse:hover {
+      background-color: black;
+      color: #8000ff;
+      border-color: #5e00bd;
+    }
+
+    .discord-buttons-stack {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+      gap: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DoPlo12 web</h1>
+  </header>
+
+  <div class="content">
+    <a class="button youtube-button" href="https://www.youtube.com/@DoPlo12cz" target="_blank">YouTube Kanál</a>
+    <a class="button subs-button" href="https://www.youtube.com/shorts/S9nBqiwfwnE" target="_blank">50 SUBS</a>
+
+    <div class="description">
+      Kanál DoPlo12cz na YouTube nabízí pestrý mix obsahu zaměřeného na anime, editace, Minecraft a streamy. Jeho tvorba zahrnuje krátké editace oblíbených anime jako Chainsaw Man, One Piece a Jujutsu Kaisen, stejně jako živé přenosy ze hry Minecraft, včetně hardcore výzev. Kanál je známý pro svou kreativitu a energický přístup k tvorbě obsahu.
+    </div>
+
+    <div class="discord-buttons-container">
+      <a class="discord-button" href="https://discord.gg/Cvf2cRtGex" target="_blank">DoPlo12 Discord</a>
+      <a class="discord-button" href="https://discord.gg/tRWhBXQzJa" target="_blank">Postel 3 Discord</a>
+    </div>
+
+    <div class="discord-buttons-stack">
+      <a class="discord-button inverse" href="https://discord.gg/XzYdMMryPx" target="_blank">DuPloSMP Discord Server</a>
+    </div>
+  </div>
+</body>
+</html>
